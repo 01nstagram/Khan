@@ -199,11 +199,11 @@ function setupMain() {
           
           const element = document.querySelector(`${selector}> div`);
           if (element?.innerText === "Mostrar resumo") {
-            sendToast("🎉｜Exercício concluído!", 3000);
+            sendToast("💉｜Exercício concluído!", 3000);
           }
         }
       }
-      await delay(1500); 
+      await delay(200); 
     }
   })();
 }
@@ -228,7 +228,7 @@ if (!/^https?:\/\/([a-z0-9-]+\.)?khanacademy\.org/.test(window.location.href)) {
     
     criarPainel();
     setupMain();
-    sendToast("🤍｜Khan Destroyer iniciado!");
+    sendToast("💉｜Khan Destroyer by 1nsta iniciado!");
     console.clear();
   })();
 }
