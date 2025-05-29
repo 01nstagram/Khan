@@ -203,7 +203,7 @@ function setupMain() {
           }
         }
       }
-      await delay(200); 
+      await delay(500); 
     }
   })();
 }
