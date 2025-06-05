@@ -105,16 +105,16 @@ text-shadow:0 0 10px #b84eff;
 
 <div style="margin-bottom:10px;">
 <label style="display:block;margin-bottom:8px;">
-<input type="checkbox" id="autoClickerToggle" checked> 🚀 Auto Click
+<input type="checkbox" id="autoClickerToggle" checked> 🇻🇦 Auto Click
 </label>
 <label style="display:block;margin-bottom:8px;">
-<input type="checkbox" id="videoExploitToggle" checked> 🎥 Video Exploit
+<input type="checkbox" id="videoExploitToggle" checked> 🇻🇦 Video Exploit
 </label>
 <label style="display:block;margin-bottom:8px;">
-<input type="checkbox" id="answerBypassToggle" checked> 🧠 Bypass Questão
+<input type="checkbox" id="answerBypassToggle" checked> 🇻🇦 Bypass Questão
 </label>
 <label style="display:block;">
-<input type="checkbox" id="skipExerciseToggle" checked> ⏭️ Pular Exercício
+<input type="checkbox" id="skipExerciseToggle" checked> 🇻🇦 Pular Exercício
 </label>
 </div>
 
@@ -130,7 +130,7 @@ cursor:pointer;
 font-weight:bold;
 transition:0.3s;
 ">
-❌ Fechar Painel
+🧟‍♂️ Fechar Painel
 </button>
 `;
 
