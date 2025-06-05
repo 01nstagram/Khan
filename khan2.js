@@ -79,28 +79,59 @@ painel.style.cssText = `
 position:fixed;
 top:20px;
 right:20px;
-background:#121212;
+background:rgba(10,10,10,0.95);
 color:white;
 padding:20px;
-border-radius:15px;
-box-shadow:0 0 25px #b84eff, 0 0 50px #b84eff;
-z-index:10000;
-font-family:Poppins,sans-serif;
-backdrop-filter:blur(10px);
+border-radius:20px;
+box-shadow:0 0 20px #b84eff,0 0 40px #b84eff;
+z-index:9999;
+font-family:'Poppins',sans-serif;
+backdrop-filter:blur(12px);
 border:2px solid #b84eff;
+max-width:280px;
 `;
 
 painel.innerHTML = `
-<h2 style="margin:0 0 15px 0;text-shadow:0 0 10px #b84eff;">
-<span style="color:white;">KHAN</span> <span style="color:#b84eff;">DESTROYER</span>
+<h2 style="
+margin:0 0 15px 0;
+font-size:24px;
+text-align:center;
+text-shadow:0 0 10px #b84eff;
+">
+<span style="color:white;">KHAN</span> 
+<span style="color:#b84eff;">DESTROYER</span><br>
+<span style="font-size:12px;color:#aaa;">by 1nstagram</span>
 </h2>
 
-<label><input type="checkbox" id="autoClickerToggle" checked> 🚀 Auto Click</label><br>
-<label><input type="checkbox" id="videoExploitToggle" checked> 🎥 Video Exploit</label><br>
-<label><input type="checkbox" id="answerBypassToggle" checked> 🧠 Bypass Questão</label><br>
-<label><input type="checkbox" id="skipExerciseToggle" checked> ⏭️ Pular Exercício Finalizado</label><br>
+<div style="margin-bottom:10px;">
+<label style="display:block;margin-bottom:8px;">
+<input type="checkbox" id="autoClickerToggle" checked> 🚀 Auto Click
+</label>
+<label style="display:block;margin-bottom:8px;">
+<input type="checkbox" id="videoExploitToggle" checked> 🎥 Video Exploit
+</label>
+<label style="display:block;margin-bottom:8px;">
+<input type="checkbox" id="answerBypassToggle" checked> 🧠 Bypass Questão
+</label>
+<label style="display:block;">
+<input type="checkbox" id="skipExerciseToggle" checked> ⏭️ Pular Exercício
+</label>
+</div>
 
-<button id="fecharPainel" style="margin-top:15px;background:red;color:white;border:none;padding:8px 15px;border-radius:8px;cursor:pointer;">❌ Fechar Painel</button>
+<button id="fecharPainel" style="
+margin-top:8px;
+width:100%;
+background:red;
+color:white;
+border:none;
+padding:10px;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+transition:0.3s;
+">
+❌ Fechar Painel
+</button>
 `;
 
 document.body.appendChild(painel);
